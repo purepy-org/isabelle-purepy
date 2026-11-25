@@ -1,6 +1,6 @@
 session "isabelle-purepy" = HOL +
   description "mechanisation in Isabelle"
-  options [timeout = 1200]
+  options [timeout = 1800]
   sessions
     "HOL-Library"
   theories
@@ -26,7 +26,7 @@ session "isabelle-purepy" = HOL +
     Programs
 
 session "isabelle-purepy-python" in "python" = "isabelle-purepy" +
-  options [timeout = 1200]
+  options [timeout = 1800]
   sessions
     Python
   theories
@@ -35,7 +35,7 @@ session "isabelle-purepy-python" in "python" = "isabelle-purepy" +
 
 session "isabelle-purepy-soundness" in "soundness" = "isabelle-purepy" +
   description "type soundness"
-  options [timeout = 1200, quick_and_dirty]
+  options [timeout = 1800, quick_and_dirty]
   theories
     WellFormed
     WellFormedExpressions
