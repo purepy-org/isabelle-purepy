@@ -12,7 +12,7 @@ BY_DESIGN = Classification.BY_DESIGN
 FOR_NOW = Classification.FOR_NOW
 
 # Sorts of the mechanisation; synonyms for Any for now, because generated code has no type annotations
-# (pure-py/isabelle-python-codegen#7)
+# (purepy-org/isabelle-python-codegen#7)
 type Var = str
 type Pos = tuple[int, int]
 type Located = Any

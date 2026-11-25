@@ -1,6 +1,6 @@
 # PurePy formalisation in Isabelle/HOL
 
-[![build](https://github.com/pure-py/isabelle-purepy/actions/workflows/build.yml/badge.svg)](https://github.com/pure-py/isabelle-purepy/actions/workflows/build.yml)
+[![build](https://github.com/purepy-org/isabelle-purepy/actions/workflows/build.yml/badge.svg)](https://github.com/purepy-org/isabelle-purepy/actions/workflows/build.yml)
 
 This repository holds the Isabelle/HOL mechanisation of the PurePy specification and the `purepy` type checker
 generated from the mechanisation.
@@ -25,7 +25,7 @@ To browse the theories with the prover running, open the session directory in th
 The `purepy` package in `src/purepy/` contains the generated type checker and reference interpreter, and the
 code which runs them on source files.
 
-Install the wheel attached to the latest [release](https://github.com/pure-py/isabelle-purepy/releases) as a
+Install the wheel attached to the latest [release](https://github.com/purepy-org/isabelle-purepy/releases) as a
 standalone command-line tool with `uv tool install <wheel URL>`. Then check a single module, or a whole program
 from the entry module:
 
